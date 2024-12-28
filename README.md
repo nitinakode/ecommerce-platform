@@ -116,12 +116,6 @@ Once an order is placed, it is stored in the browser’s `localStorage`. Users c
 
 Feel free to fork this project and submit pull requests. Any feedback or improvements are welcome!
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 Enjoy shopping! 😊
 ```
 
