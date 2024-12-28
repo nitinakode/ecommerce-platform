@@ -7,34 +7,14 @@ A simple and responsive e-commerce web application built using React and React-B
 
 ## Features
 
-- **Product Listings:** Browse products by category and search for items by name.
-- **Product Details:** View detailed information about each product.
-- **Cart Functionality:** Add products to the cart, update quantities, and remove items.
-- **Promo Code:** Apply promo codes to get discounts on the total order.
-- **Order History:** View a history of orders placed with timestamps and total amounts.
-- **Responsive Design:** Fully responsive layout for desktop and mobile views.
+- Product Listings: Browse products by category and search for items by name.
+- Product Details: View detailed information about each product.
+- Cart Functionality: Add products to the cart, update quantities, and remove items.
+- Promo Code: Apply promo codes to get discounts on the total order.
+- Order History: View a history of orders placed with timestamps and total amounts.
+- Responsive Design: Fully responsive layout for desktop and mobile views.
 
-## Project Structure
 
-The project is structured as follows:
-
-```
-├── component/
-│   ├── Navbar.js           # Navigation bar component
-│   ├── ProductCard.js      # Product card component
-│   
-├── pages/
-│   ├── CartPage.js         # Shopping cart page
-│   ├── HomePage.js         # Home page with product listings
-│   ├── OrderHistoryPage.js # User's order history page
-│   ├── ProductDetailPage.js # Detailed view of a product
-│   
-├── services/
-│   └── api.js             # API calls (fetching products)
-│
-├── App.js                  # Main entry point of the application (Router setup)
-├── index.js                # Renders the React app
-└── package.json             # Project dependencies and scripts
 ```
 
 ## Installation
@@ -80,11 +60,9 @@ The app will run on `http://localhost:3000` by default.
 
 ### Components
 
-- **NavBar:** A responsive navigation bar that links to the Home, Cart, and Order History pages.
-- **ProductCard:** A reusable card component that displays product details like title, image, and price. It also allows adding products to the cart.
-- **CartPage:** Displays the items in the cart, allows updating quantities, and applying promo codes for discounts.
-- **OrderHistoryPage:** Displays a history of placed orders with item details and the total amount.
-- **ProductDetailPage:** Displays detailed information about a selected product, including its description, price, and rating.
+- NavBar: A responsive navigation bar that links to the Home, Cart, and Order History pages.
+- ProductCard: A reusable card component that displays product details like title, image, and price. It also allows adding products to the cart.
+
 
 ### Services
 
